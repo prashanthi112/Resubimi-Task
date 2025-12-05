@@ -1,0 +1,116 @@
+----------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #f4f2f8;
+    color: #2d2b33;
+    line-height: 1.6;
+}
+
+.wrap {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* SAFE GLOBAL IMAGE RULE (won’t break pages) */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* -----------------------------------
+   HEADER
+----------------------------------- */
+.site-header {
+    background: linear-gradient(135deg, #6e42c1, #8c6fe2);
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.site-title {
+    font-size: 2.7rem;
+    font-weight: 700;
+}
+
+.site-tag {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    margin-top: 8px;
+}
+
+/* -----------------------------------
+   NAVIGATION
+----------------------------------- */
+.main-nav {
+    background-color: #e8e6f0;
+    text-align: center;
+    padding: 12px 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #d0c9e8;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #4a3e7a;
+    font-weight: 600;
+    margin: 0 18px;
+    transition: 0.3s ease;
+}
+
+.main-nav a:hover {
+    color: #6e42c1;
+}
+
+.main-nav a[aria-current="page"] {
+    color: #6e42c1;
+    border-bottom: 2px solid #6e42c1;
+}
+
+/* -----------------------------------
+   HERO SECTION
+----------------------------------- */
+.hero {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.hero h2 {
+    color: #6e42c1;
+    font-size: 2.2rem;
+}
+
+.hero p {
+    color: #4a3e7a;
+    font-size: 1.15rem;
+    margin: 15px 0 25px;
+}
+
+/* Full, small hero image */
+.hero-image {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: contain;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+/* -----------------------------------
+   FOOTER
+----------------------------------- */
+.main-footer {
+    background: #6e42c1;
+    color: #fff;
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 50px;
+    font-size: 1rem;
+    box-shadow: 0 -4px 8px rgba(0,0,0,0.15);
+}

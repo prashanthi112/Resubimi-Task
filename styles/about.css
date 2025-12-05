@@ -1,0 +1,29 @@
+/* -----------------------------------
+   HOME PAGE HIGHLIGHTS
+----------------------------------- */
+.home-highlights {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.feature {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    transition: 0.3s ease;
+}
+
+.feature:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 15px rgba(0,0,0,0.15);
+}
+
+.feature h3 {
+    color: #6e42c1;
+    margin-bottom: 8px;
+}
+
